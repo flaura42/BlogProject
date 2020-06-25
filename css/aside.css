@@ -1,0 +1,54 @@
+h4 {
+  font-size: 1.4em;
+  font-weight: bold;
+  margin: 15px 0;
+  padding: 0;
+  text-align: center;
+}
+
+h5 {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin: 20px 0 5px;
+  text-align: center;
+}
+
+aside {
+  background-color: #369;
+  grid-area: aside;
+}
+
+.avatar {
+  display: grid;
+  grid: 50% 50% / 33% auto;
+}
+
+.image {
+  grid-row: 1 / span 2;
+}
+
+.name {
+  align-self: end;
+  font-size: 1.2em;
+  font-weight: bold;
+  grid-row: 2 / 1;
+  margin: 0;
+  padding: 10px 0 0 0;
+}
+
+.title {
+  grid-row: 2 / 2;
+  margin: 0;
+  padding: 0;
+}
+
+.about {
+  font-size: .9em;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}

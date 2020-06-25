@@ -1,7 +1,10 @@
+@import "./aside.css";
+@import "./posts.css";
+
 body {
   background-color: #000;
   color: #ddd;
-  font: 12px Verdana, sans-serif;
+  font: 14px/1.4 Verdana, sans-serif;
   margin: 0;
 }
 
@@ -20,22 +23,60 @@ body {
 
 .spacing {
   margin: 0;
-  padding: 10px;
+  padding: 15px;
 }
 
+/* text */
+h1 {
+  font-size: 2em;
+  font-weight: bolder;
+  letter-spacing: .4rem;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 1.6em;
+  font-weight: bold;
+  letter-spacing: .1rem;
+}
+
+h3 {
+  font-size: 1.4em;
+  font-weight: bold;
+  letter-spacing: .1rem;
+}
+
+a {
+  color: #2d2;
+}
+
+a:hover {
+  color: #d22;
+}
+
+/* header section */
 header {
+  background: url("../images/clouds-2.jpg") no-repeat;
+  background-size: cover;
   grid-area: header;
   text-align: center;
 }
 
+/* main section */
 main {
+  background-color: #ddd;
+  color: #333;
   grid-area: main;
 }
 
-aside {
-  grid-area: aside;
+/* footer section */
+footer {
+  background-color: #333;
+  grid-area: footer;
+  text-align: right;
 }
 
-footer {
-  grid-area: footer;
+.copy {
+  font-size: .8em;
+  margin: 0;
 }

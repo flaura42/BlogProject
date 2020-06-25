@@ -1,114 +1,12 @@
-body {
-  background-color: #000;
-  color: #ddd;
-  font: 14px/1.4 Verdana, sans-serif;
-  margin: 0;
-}
-
-.wrapper {
-  display: grid;
-  grid-template-areas:
-    "header header"
-    "main aside"
-    "footer footer";
-  grid-template-columns: 75% 25%;
-  grid-template-rows: auto;
-  margin: auto;
-  max-width: 1200px;
-  padding: 10px;
-}
-
-.spacing {
-  margin: 0;
-  padding: 15px;
-}
-
-/* text */
-h1 {
-  font-size: 2em;
-  font-weight: bolder;
-  letter-spacing: .4rem;
-  text-transform: uppercase;
-}
-
-h2 {
-  font-size: 1.6em;
-  font-weight: bold;
-}
-
-h3 {
-  font-size: 1.4em;
-  font-weight: bold;
-}
-
-h4 {
-  font-size: 1.4em;
-  font-weight: bold;
-  margin: 15px 0 10px;
-  padding: 0;
-  text-align: center;
-}
-
-h5 {
-  font-size: 1.2em;
-  font-weight: bold;
-  margin: 10px 0 5px;
-  text-align: center;
-}
-
-/* header section */
-header {
-  background: url("../images/clouds-2.jpg") no-repeat;
-  background-size: cover;
-  grid-area: header;
-  text-align: center;
-}
-
-/* main section */
-main {
-  background-color: #333;
-  grid-area: main;
-}
-
-/* aside section */
-aside {
-  background-color: #369;
-  grid-area: aside;
-}
-
-.avatar {
-  display: grid;
-  grid: 50% 50% / 33% auto;
-
-}
-
-.image {
-  grid-row: 1 / span 2;
-}
-
-.name {
-  align-self: end;
-  font-size: 1.2em;
-  font-weight: bold;
-  grid-row: 2 / 1;
-  margin: 0;
-  padding: 10px 0 0 0;
-}
-
-.title {
-  grid-row: 2 / 2;
-  margin: 0;
-  padding: 0;
-}
-
-.links {
+.post {
+  align-items: flex-start;
+  background-color: #ddd;
+  color: #333;
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
+  font-size: 1.15em;
 }
 
-/* footer section */
-footer {
-  grid-area: footer;
+.post-text p {
+  margin: 0 0 10px 15px;
+  padding: 0;
 }
