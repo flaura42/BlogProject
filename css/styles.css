@@ -38,12 +38,13 @@ h2 {
   font-size: 1.6em;
   font-weight: bold;
   letter-spacing: .1rem;
+  margin-left: 6px;
 }
 
 h3 {
-  font-size: 1.4em;
+  font-size: 1.2em;
   font-weight: bold;
-  letter-spacing: .1rem;
+  margin: 10px 0 5px;
 }
 
 a {
@@ -67,6 +68,37 @@ main {
   background-color: #ddd;
   color: #333;
   grid-area: main;
+}
+
+.cards-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card {
+  justify-content: space-between;
+  background-color: #fff;
+  border: 1px solid #666;
+  border-radius: 0 15px;
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+  min-width: 150px;
+  padding: 10px;
+  width: 25%;
+  flex-grow: 1;
+}
+
+.more-button {
+  border-radius: 15px;
+  background-color: #2d2;
+  max-width: 150px;
+  padding: 5px;
+}
+
+.more-button:hover {
+  background-color: #d22;
 }
 
 /* footer section */
