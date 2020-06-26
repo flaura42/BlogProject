@@ -77,28 +77,34 @@ main {
 }
 
 .card {
-  justify-content: space-between;
   background-color: #fff;
   border: 1px solid #666;
   border-radius: 0 15px;
   display: flex;
   flex-direction: column;
+  flex-grow: 1;
+  justify-content: space-between;
   margin: 5px;
   min-width: 150px;
   padding: 10px;
   width: 25%;
-  flex-grow: 1;
 }
 
 .more-button {
+  background-image: linear-gradient(#cc2, #2d2, #080);
+  border: 1px solid #333;
   border-radius: 15px;
-  background-color: #2d2;
+  color: #333;
   max-width: 150px;
   padding: 5px;
+  text-align: center;
+  text-decoration: none;
 }
 
 .more-button:hover {
-  background-color: #d22;
+  background-image: linear-gradient(#d26, #d22, #800);
+  color: #333;
+  text-decoration: none;
 }
 
 /* footer section */

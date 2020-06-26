@@ -1,3 +1,13 @@
+.title {
+  align-items: baseline;
+  display: flex;
+  justify-content: space-between;
+}
+
+.date {
+  font-size: 1.1em;
+}
+
 .post {
   align-items: flex-start;
   background-color: #ddd;
@@ -6,7 +16,35 @@
   font-size: 1.15em;
 }
 
+.image-nav {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.post-image {
+  margin-bottom: 15px;
+}
+
 .post-text p {
   margin: 0 0 10px 15px;
   padding: 0;
+}
+
+/* styling for home button */
+.home-button {
+  background-image: linear-gradient(#cc2, #2d2, #080);
+  border: 1px solid #333;
+  border-radius: 15px;
+  color: #333;
+  max-width: 200px;
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.home-button:hover {
+  background-image: linear-gradient(#d26, #d22, #800);
+  color: #333;
+  text-decoration: none;
 }
