@@ -23,20 +23,20 @@
 }
 
 .post-image {
-  margin-bottom: 15px;
+  margin-bottom: 5px;
 }
 
-.post-text p {
-  margin: 0 0 10px 15px;
-  padding: 0;
+.caption {
+  font-size: .75em;
+  margin: 0;
 }
 
-/* styling for home button */
 .home-button {
   background-image: linear-gradient(#cc2, #2d2, #080);
   border: 1px solid #333;
   border-radius: 15px;
   color: #333;
+  margin-top: 15px;
   max-width: 200px;
   padding: 5px;
   text-align: center;
@@ -47,4 +47,16 @@
   background-image: linear-gradient(#d26, #d22, #800);
   color: #333;
   text-decoration: none;
+}
+
+.post-text p {
+  margin: 0 0 10px 15px;
+  padding: 0;
+}
+
+q {
+  display: inline-block;
+  font-size: .9em;
+  font-style: oblique;
+  margin: 0 15px;
 }

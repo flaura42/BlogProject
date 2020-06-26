@@ -9,8 +9,16 @@ h4 {
 h5 {
   font-size: 1.2em;
   font-weight: bold;
-  margin: 20px 0 5px;
+  margin: 25px 0 5px;
   text-align: center;
+}
+
+a {
+  color: #2d2;
+}
+
+a:hover {
+  color: #d22;
 }
 
 aside {
@@ -51,4 +59,5 @@ aside {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  margin-bottom: 15px;
 }
