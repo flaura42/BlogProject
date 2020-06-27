@@ -31,19 +31,22 @@
   margin: 0;
 }
 
-.home-button {
+.nav-buttons {
+  margin: 10px 0;
+}
+
+.post-button {
   background-image: linear-gradient(#cc2, #2d2, #080);
   border: 1px solid #333;
   border-radius: 15px;
   color: #333;
   margin-top: 15px;
-  max-width: 200px;
   padding: 5px;
   text-align: center;
   text-decoration: none;
 }
 
-.home-button:hover {
+.post-button:hover {
   background-image: linear-gradient(#d26, #d22, #800);
   color: #333;
   text-decoration: none;
