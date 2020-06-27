@@ -66,3 +66,177 @@ footer {
   font-size: .8em;
   margin: 0;
 }
+
+/* Media Queries */
+/* Note: Attempt to place media queries in separate file failed.  From KB, I learned this is a known issue. */
+@media (max-width: 410px) {
+  h2 {
+    margin: 10px 0 0;
+  }
+
+  /* Aside */
+  .avatar {
+    align-self: center;
+    width: 100%;
+  }
+
+  .links {
+    justify-content: start;
+  }
+
+  /* Post Pages */
+  .title {
+    flex-direction: column;
+  }
+
+  .date {
+    margin: 0 0 10px;
+  }
+
+  .post-text p {
+    margin: 10px 0;
+  }
+}
+
+@media (max-width: 493px) {
+  h1 {
+    font-size: 1.75em;
+  }
+
+  h2 {
+    font-size: 1.5em;
+  }
+
+  /* Aside */
+  aside {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .avatar {
+    order: 1;
+  }
+
+  .links {
+    flex-direction: row;
+    flex-grow: 1;
+    justify-content: flex-end;
+    order: 2;
+  }
+
+  .links a {
+    padding: 5px;
+  }
+
+  .about {
+    order: 3;
+  }
+
+  /* Post Pages */
+  .post {
+    flex-direction: column;
+  }
+
+  .image-nav {
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .caption {
+    display: none;
+  }
+
+  .post-image {
+    width: 75px;
+  }
+}
+
+@media (max-width: 700px) {
+  /* Aside */
+  .avatar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .image {
+    display: none;
+  }
+
+  .links {
+    align-items: flex-start;
+  }
+
+  /* Post Pages */
+  .post-image {
+    height: 100%;
+    object-fit: cover;
+    width: 150px;
+  }
+
+  .nav-buttons {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .post-button {
+    margin: 2px;
+  }
+}
+
+@media (max-width: 850px) {
+  .wrapper {
+    grid-template-areas:
+      "header"
+      "main"
+      "aside"
+      "footer";
+    grid-template-columns: 100%;
+  }
+
+  h4 {
+    display: none;
+  }
+
+  h5 {
+    display: none;
+  }
+
+  /* Aside */
+  aside {
+    display: grid;
+    gap: 5px;
+    grid: 50% 50% / 25% 75%;
+  }
+
+  .about {
+    font-size: 1em;
+    grid-column: 2 / 2;
+    grid-row: 1 / span 2;
+  }
+
+  .links {
+    align-self: flex-start;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@media (max-width: 901px) {
+  /* Aside */
+  .name {
+    font-size: 1em;
+  }
+
+  .title {
+    font-size: .85em;
+  }
+
+  .links {
+    align-items: center;
+    flex-direction: column;
+  }
+}
