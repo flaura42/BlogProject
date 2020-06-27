@@ -1,3 +1,4 @@
+/* CSS for sidebar part of page */
 h4 {
   font-size: 1.4em;
   font-weight: bold;
@@ -28,23 +29,30 @@ aside {
 
 .avatar {
   display: grid;
-  grid: 50% 50% / 33% auto;
+  gap: 2px 10px;
+  grid: 50% 50% / 25% auto;
 }
 
 .image {
+  grid-column: 1 / 1;
   grid-row: 1 / span 2;
+  margin: 0;
+  padding: 0;
+  width: 100%;
 }
 
 .name {
   align-self: end;
   font-size: 1.2em;
   font-weight: bold;
+  grid-column: 2 / 2;
   grid-row: 2 / 1;
   margin: 0;
-  padding: 10px 0 0 0;
+  padding: 0;
 }
 
 .title {
+  grid-column: 2 / 2;
   grid-row: 2 / 2;
   margin: 0;
   padding: 0;
