@@ -22,13 +22,14 @@
   flex-direction: column;
 }
 
-.post-image {
+/* .post-image {
   margin-bottom: 5px;
-}
+} */
 
 .caption {
   font-size: .75em;
   margin: 0;
+  text-align: center;
 }
 
 .nav-buttons {
@@ -56,9 +57,7 @@
   padding: 0;
 }
 
-q {
-  display: inline-block;
+blockquote {
   font-size: .9em;
   font-style: oblique;
-  margin: 0 15px;
 }

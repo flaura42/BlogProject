@@ -11,6 +11,14 @@
       <header class="spacing">
         <h1>My Personal Blog</h1>
       </header>
+      <nav>
+        <ul class="nav">
+          <li class="nav-item"><a href="../index.html">Home</a></li>
+          <li class="nav-item"><a href="post-01.html">First Post</a></li>
+          <li class="nav-item"><a href="post-02.html" class="active">Second Post</a></li>
+          <li class="nav-item"><a href="post-03.html">Third Post</a></li>
+        </ul>
+      </nav>
       <main class="spacing">
         <div class="title">
           <h2>The Voyage So Far...</h2>
@@ -18,8 +26,10 @@
         </div>
         <div class="post">
           <div class="image-nav">
-            <img src="../images/voyage.jpg" alt="ship on rough seas" class="post-image">
-            <p class="caption">Rough Seas Ahead</p>
+            <figure class="image">
+              <img src="../images/voyage.jpg" alt="ship on rough seas" class="post-image">
+              <figcaption class="caption">Rough Seas Ahead</figcaption>
+            </figure>
             <div class="nav-buttons">
               <a href="post-01.html" class="post-button">Last</a>
               <a href="../index.html" class="post-button">Home</a>
@@ -29,7 +39,7 @@
           <div class="post-text">
             <p>I've finished all the lessons for the first section! I was able to complete them in just a couple days, since so much was review. It would have been useful to know about Flex and Grid before I completed the MWS Nanodegree, but I figured it out. It is nice to see how things fit together in a structured order. Also glad to find out that combining Flex and Grid in a webpage <em>isn't actually weird</em>. I did it on a site I built, but it seemed like they were supposed to be either/or.</p>
             <p>As the lesson put it:
-              <q>At the highest level CSS Grid excels at creating layouts for a webpage, while Flexbox is a master of content flow for each element that makes up the page layout.</q>
+              <blockquote>At the highest level CSS Grid excels at creating layouts for a webpage, while Flexbox is a master of content flow for each element that makes up the page layout.</blockquote>
             </p>
             <p>And now I begin the first project...</p>
           </div>
